@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>This is an example without the use of the arrow.</p>
+
+        <p id="demo"></p>
+
+        <script>
+            let hello = "";
+
+            hello = () => {
+                return "Hello World!";
+            }
+
+            document.getElementById("demo").innerHTML = hello();
+        </script>
+    </body>
+</html>
